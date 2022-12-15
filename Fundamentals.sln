@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependecyInjectionExample", "DependecyInjectionExample\DependecyInjectionExample.csproj", "{B7783A50-244F-43C1-BF26-37F531DFD21E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependecyInjectionExample", "DependecyInjectionExample\DependecyInjectionExample.csproj", "{B7783A50-244F-43C1-BF26-37F531DFD21E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidPrinciples", "SolidPrinciples\SolidPrinciples.csproj", "{50956194-65D7-438F-BCD8-69715B67FFBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolidPrinciples", "SolidPrinciples\SolidPrinciples.csproj", "{50956194-65D7-438F-BCD8-69715B67FFBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{E3D18257-D5C9-4A90-8CF2-0BAA9CEC1AEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "TestProject\TestProject.csproj", "{E3D18257-D5C9-4A90-8CF2-0BAA9CEC1AEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestExample", "UnitTestExample\UnitTestExample.csproj", "{58D0967B-4A7C-4DDC-8052-4982799B0CD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestExample", "UnitTestExample\UnitTestExample.csproj", "{58D0967B-4A7C-4DDC-8052-4982799B0CD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{D465055C-FB3B-43EB-B2A9-F4FAD9D9450C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{58D0967B-4A7C-4DDC-8052-4982799B0CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58D0967B-4A7C-4DDC-8052-4982799B0CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58D0967B-4A7C-4DDC-8052-4982799B0CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D465055C-FB3B-43EB-B2A9-F4FAD9D9450C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D465055C-FB3B-43EB-B2A9-F4FAD9D9450C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D465055C-FB3B-43EB-B2A9-F4FAD9D9450C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D465055C-FB3B-43EB-B2A9-F4FAD9D9450C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
