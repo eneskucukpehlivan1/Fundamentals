@@ -1,5 +1,7 @@
-﻿using OOP.Encapsulation;
+﻿using OOP.Abstraction;
+using OOP.Encapsulation;
 using OOP.Inheritance;
+using OOP.Interface;
 
 Console.WriteLine("Encapsulation Example:");
 
@@ -41,7 +43,33 @@ double raise = 2000;
 manager2.Raise(raise);
 Console.WriteLine("Zam Miktarı: {0} Zamlı Maaş: {1}", raise, manager2.WorkerSalary);
 Console.WriteLine("--------------------------------------------------------------");
-
-
-
+Console.WriteLine("Abstraction Example:");
+Car newCar = new Car();
+double fuel = newCar.GetFuel();
+Console.WriteLine("Benzin: {0}", fuel);
+newCar.Stop();
+Console.WriteLine("--------------------------------------------------------------");
+Console.WriteLine("Interface Example:");
+///---> Değerlerin Tanımlanması <---\\\
+string mark = new string('-', 6);
+int value;
+DatabaseManager database;
+///---> Sorgulama İşlemi Gerçekleştirelim <---\\\
+Console.WriteLine("[1] - Oracle Database Bağlantısı Kur\n[2] - Mysql Database Bağlantısı Kur\n{0}", mark);
+Console.Write("-> Kararınız: ");
+value = Convert.ToInt32(Console.ReadLine());
+switch (value)
+{
+    case 1:
+        database = new DatabaseManager(new OracleDatabaseManager());
+        database.loginDB();
+        break;
+    case 2:
+        database = new DatabaseManager(new MysqlDatabaseManager());
+        database.loginDB();
+        break;
+    default:
+        Console.WriteLine(mark);
+        break;
+}
 Console.ReadKey();
